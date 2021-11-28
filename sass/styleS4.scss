@@ -1,0 +1,47 @@
+.prevent{
+    background: #b7cde3bf;
+}
+
+.prevent .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    margin-left: 5rem;
+}
+
+.prevent .row .image{
+    flex: 1 1 37rem;
+    height: 35rem;
+    text-align: center;
+}
+
+.prevent .row .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.prevent .row .content{
+    padding: 2rem 0;
+    flex: 1 1 37rem;
+}
+
+.prevent .row .content .heading{
+    color: #666;
+    font-weight: bold;
+}
+
+.prevent .row .content p{
+    font-size: 1.7rem;
+    color: rgb(55, 55, 55);
+    padding: 1rem 0;
+}
+
+.prevent .row .content ul li{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: rgb(70, 70, 70);
+    padding: .5rem 0;
+}

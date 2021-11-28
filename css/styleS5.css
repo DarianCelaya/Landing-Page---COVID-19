@@ -1,0 +1,42 @@
+.handwash .heading {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.handwash .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.handwash .box-container .box {
+  background: #fff;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  margin: 2rem;
+  margin-top: 3rem;
+  padding: 2rem 3.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.handwash .box-container .box img {
+  height: 17rem;
+  width: 17rem;
+}
+
+.handwash .box-container .box span {
+  display: block;
+  position: absolute;
+  top: -2rem;
+  left: -2rem;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: #fff;
+  background: #129d06;
+  border-radius: 5rem;
+}
+
+/*# sourceMappingURL=styleS5.css.map */

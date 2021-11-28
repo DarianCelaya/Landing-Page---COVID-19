@@ -1,0 +1,45 @@
+.symtoms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #e39b8196;
+}
+
+.symtoms .content {
+  flex: 1 1 40rem;
+  margin-left: 4rem;
+}
+
+.symtoms .image {
+  flex: 1 1 40rem;
+}
+
+.symtoms .image img {
+  width: 100%;
+}
+
+.symtoms .content p {
+  font-size: 1.5rem;
+  color: #595959;
+  padding: 1rem 0;
+}
+
+.symtoms .content ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.symtoms .content ul .two {
+  padding-left: 4.5rem;
+}
+
+.symtoms .content ul li {
+  margin-left: 4rem;
+  font-size: 1.5rem;
+  color: #666;
+  padding: 0.5rem 0;
+}
+
+/*# sourceMappingURL=styleS3.css.map */
